@@ -5,7 +5,7 @@ class BuilderRow extends StatelessWidget {
   final MainAxisSize mainAxisSize;
   final CrossAxisAlignment crossAxisAlignment;
   final int itemNumber;
-  final Widget Function( BuildContext, int) itemBuilder;
+  final Widget Function(BuildContext, int) itemBuilder;
   final Widget Function(BuildContext, int) seperatorBuilder;
 
   const BuilderRow({
@@ -33,7 +33,7 @@ class BuilderRow extends StatelessWidget {
     for (var i = 0; i < itemNumber; i++) {
       out.add(itemBuilder(context, i));
       if (seperatorBuilder != null && i != itemNumber - 1) {
-        out.add(seperatorBuilder( context, i));
+        out.add(seperatorBuilder(context, i));
       }
     }
     return out;

@@ -46,7 +46,7 @@ class BuilderWrap extends StatelessWidget {
   List<Widget> buildColumn(BuildContext context) {
     List<Widget> out = List();
     for (var i = 0; i < itemNumber; i++) {
-      out.add(itemBuilder(context,i));
+      out.add(itemBuilder(context, i));
       if (seperatorBuilder != null && i != itemNumber - 1) {
         out.add(seperatorBuilder(context, i));
       }

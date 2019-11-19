@@ -1,6 +1,6 @@
 name: more_builders
 description: A simple package including "builder wrappers" for Rows, Columns and Wraps
-version: 1.0.0
+version: 0.0.1
 author: Tilman Kieselbach <tilman.kieselbach@gmail.com>
 homepage: https://github.com/tilk48/more_builders
 
