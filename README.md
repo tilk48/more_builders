@@ -12,9 +12,9 @@ Adds the three new classes wich provide `ListView.builder(..)` and `ListView.sep
 		    itemNumber: items.length,
 		    itemBuilder: (context, index){
 			    return  Text(items[index]);
-			},
+		    },
 		    seperatorBuilder: (context, index){
 			    return  VerticalDivider(width:  10,);
-			},
-		);
+		    },
+	     );
     }
