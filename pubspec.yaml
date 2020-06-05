@@ -1,11 +1,10 @@
 name: more_builders
 description: A simple package including "builder wrappers" for Rows, Columns and Wraps
-version: 1.0.0
-author: Tilman Kieselbach <tilman.kieselbach@gmail.com>
+version: 1.1.0
 homepage: https://github.com/tilk48/more_builders
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.6.0 <3.0.0"
 
 dependencies:
   flutter:
